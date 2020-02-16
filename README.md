@@ -26,7 +26,7 @@ Deberás obtener una respuesta como esta:
 
 ![Version de git](./img/version.png)
 
-Si no tienes git instalado da click [aquí](https://git-scm.com/downloads) y descarga la versión correcta para su sistema operativo. Será de gran ayuda tener un editor de texto como **Visual Studio Code** o el que sea de tu preferencia, para descargarlo da click [aquí](https://code.visualstudio.com).
+Si no tienes git instalado da click [aquí](https://git-scm.com/downloads) y descarga la versión correcta para tu sistema operativo. Será de gran ayuda tener un editor de texto como **Visual Studio Code** o el que sea de tu preferencia, para descargarlo da click [aquí](https://code.visualstudio.com).
 
 Una vez terminado el proceso de instalación necesitas ejecutar el comando antes mencionado para comprobar que se ha instalado correctamente.
 
@@ -77,21 +77,22 @@ git init
 ## Operaciones de Git
 
 ### Add
-Si haces un cambio en algún documento es necesario decirle a Git que quieres que se sincronize con el reporitorio. Git no lo hace automáticamente así que debes de escribir el comando:
+Si haces un cambio en algún documento es necesario decirle a *Git* que quieres que se sincronice con el reporitorio. *Git* no lo hace automáticamente así que debes de escribir el comando:
+
 ```bash
 git add .
 ```
-El `.` hace referencia a todos los archivos de la carpeta y esta es la opción que usarás casi todas las veces. Si quisieras sólo agregar un archivo para que se sincronize entonces cambia el punto `.` por el nombre de un archivo.
+El `.` hace referencia a todos los archivos de la carpeta y esta es la opción que usarás casi todas las veces. Si quisieras sólo agregar un archivo para que se sincronice entonces cambia el punto `.` por el nombre de un archivo.
 
 ### Commit
-Ya que has hecho tus cambios y quieres que se sincronizen en el repositorio se debe hacer un "commit". En un commit se guardan los cambios a uno o varios archivos y es por asi decirlo una nueva versión de tu programa. Todos los commit deben de llevar un mensaje. Trata de ser específico y mencionar todos los cambios que hiciste para que si luego quieres deshacer cambios y volver a una versión antigua de tu programa sepas exactamente qué hiciste en esa versión.
+Ya que has hecho tus cambios y quieres que se sincronicen en el repositorio se debe hacer un **commit**. En un **commit** se guardan los cambios a uno o varios archivos y es, por asi decirlo , *una nueva versión de tu programa*. Todos los commit deben de llevar un mensaje. Trata de ser específico y mencionar todos los cambios que hiciste para que si luego quieres deshacer cambios y volver a una versión antigua de tu programa sepas exactamente qué hiciste en esa versión.
 El comando es:
 ```bash
 git commit -m "aqui va tu mensaje"
 ```
 
 ### Status
-Como se puede intuir por el nombre, git status nos muestra el estado de nuestro repositorio. Esto quiere decir que nos muestra si falta algún archivo por añadir al repositorio, si hay algún conflicto entre archivos, etc.
+Como se puede intuir por el nombre, *git status* nos muestra el estado de nuestro repositorio. Esto quiere decir que nos muestra si falta algún archivo por añadir al repositorio, si hay algún conflicto entre archivos, etc.
 El comando para ver el estado es:
 ```bash
 git status
