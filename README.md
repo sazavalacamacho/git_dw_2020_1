@@ -8,6 +8,10 @@ Bienvenido a este taller de la *DevWeek Ene-Jun 2020*, por parte de *BeeDevelope
 
 ## Descargas, instlación y confirguación
 
+### Aquí podras descargar un pdf con un listado completo de comandos de Git proporcionado por GitHub
+
+[link](https://github.github.com/training-kit/downloads/es_ES/github-git-cheat-sheet.pdf)
+
 ### Descargar Git
 
 Antes de descargar git, deberás comprobar si tu computadora no posee ya alguna versión de git. Es posible que sistemas operativos como **Linux** o **MacOS** tengan pre-instalado git.
