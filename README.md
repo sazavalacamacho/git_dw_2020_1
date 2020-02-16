@@ -73,3 +73,30 @@ git init
 ```
 
 ¿Qué hace *git init*? Este comando se emplea para indicar que el directorio donde nos encontramos comenzará a trabajar como un repositorio. Crea, dentro del mismo, un subdirectorio llamado *.git* que contiene todo lo necesario para que git comience a trabajar. También creará la rama **master** de nuestro proyecto.
+
+## Operaciones de Git
+
+### Add
+Si haces un cambio en algún documento es necesario decirle a Git que quieres que se sincronize con el reporitorio. Git no lo hace automáticamente así que debes de escribir el comando:
+```bash
+git add .
+```
+El `.` hace referencia a todos los archivos de la carpeta y esta es la opción que usarás casi todas las veces. Si quisieras sólo agregar un archivo para que se sincronize entonces cambia el punto `.` por el nombre de un archivo.
+
+### Commit
+Ya que has hecho tus cambios y quieres que se sincronizen en el repositorio se debe hacer un "commit". En un commit se guardan los cambios a uno o varios archivos y es por asi decirlo una nueva versión de tu programa. Todos los commit deben de llevar un mensaje. Trata de ser específico y mencionar todos los cambios que hiciste para que si luego quieres deshacer cambios y volver a una versión antigua de tu programa sepas exactamente qué hiciste en esa versión.
+El comando es:
+```bash
+git commit -m "aqui va tu mensaje"
+```
+
+### Status
+Como se puede intuir por el nombre, git status nos muestra el estado de nuestro repositorio. Esto quiere decir que nos muestra si falta algún archivo por añadir al repositorio, si hay algún conflicto entre archivos, etc.
+El comando para ver el estado es:
+```bash
+git status
+```
+
+### Checkout
+
+
