@@ -100,4 +100,29 @@ git status
 
 ### Checkout
 
+Las *ramas* se usan para desarrollar funcionalidades separadas unas de otras en tu proyecto. La rama que está por defecto en tu proyecto se le denomina **master** y es la que posee la versión final o funcional de tu proyecto. Es altamente recomendable no editar la master directamente, si quieres agregar una nueva funcionalidad a tu proyecto crea una nueva rama y hasta que noe stes seguro de que todo funciona fusionas la rama creada con la master. De esta manera si estropeas algo solo basta con eliminar la rama nueva y volver a comenzar.
+
+Para crear una nueva rama en tu repositorio y posicionarte sobre ella automaticamente se usa el siguiente comando: 
+(Crearemos una rama llamada "ramona")
+
+```bash
+git checkout -b ramona
+```
+Para comabiar entre ramas se usa: (Cambiaremos de la rama actual a "ramona")
+
+```bash
+gir checkout ramona
+```
+Para eliminar una rama se utiiza el siguiente comando: (Eliminaremos a "ramona")
+
+```bash
+git branch -d ramona
+```
+Para fusionar otra rama en tu rama actual se utiliza el siguiente comando: (Fusionaremos a "ramona" con la rama en donde nos encontremos)
+
+```bash
+git merge ramona
+```
+
+
 
